@@ -5,311 +5,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Francisco Lopez - Engineer | Analyst | Developer</title>
+    <title>Home - Francisco Laplace - Data Engineer | Business Analyst | Software Developer</title>
 
-    <!-- Bootstrap 5 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-
-    <!--CSS Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/index.css">
-    <link rel="icon" href="res/icons/letter-l.png">
-
-    <!-- Google Fonts-->
+    <link rel="icon" href="res/img/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
 
-    <!-- Fontawesome -->
-    <script src="https://kit.fontawesome.com/2abe0b2ea5.js" crossorigin="anonymous"></script>
-
-    <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
-        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-
-    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.js"></script>
     <script src="js/particles.js"></script>
-
 </head>
-<div class="header-container" id="index-header">
-    <nav class="navbar navbar-expand-md navbar-dark">
-        <div class="container-fluid">
-            <div class="me-auto w-100 d-flex">
-                <a class="navbar-brand me-auto" href="https://www.laplacef.me/">
-                    <img class="navbar-img" src="res/gif/brand.gif" alt="brand">
+
+<body>
+    <div class="page-wrapper d-flex flex-column">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://www.laplacef.me/">
+                    <img class="navbar-img" src="res/misc/laplacef.gif" alt="brand">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-            </div>
-            <div class="navbar-collapse collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav mx-auto">
-                    <a class="nav-link active underline" aria-current="page" href="https://www.laplacef.me/">Home</a>
-                    <a class="nav-link underline" href="bio.html">Bio</a>
-                    <a class="nav-link underline" href="services.html">Services</a>
-                    <a class="nav-link underline" href="contact.html">Contact</a>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav navbar-nav ms-mx-auto">
+                        <a class="nav-link underline me-3 active" aria-current="page"
+                            href="https://www.laplacef.me/">Home</a>
+                        <a class="nav-link underline me-3" href="about.html">About</a>
+                        <a class="nav-link underline me-3" href="contact.html">Contact</a>
+                        <a class="nav-link underline me-3" href="work.html">Work</a>
+                        <!-- Icons inside the dropdown -->
+                        <div class="nav-brands">
+                            <a class="nav-link nav-link-brands d-md-none me-3" href="https://github.com/laplacef"
+                                target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a class="nav-link nav-link-brands d-md-none me-3"
+                                href="https://www.linkedin.com/in/laplacef" target="_blank">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="navbar-collapse collapse w-100" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto horizontal-collapse">
-                    <a class="nav-link nav-link-brands" href="https://twitter.com/laplacef_" target="_blank">
-                        <i class="fa-brands fa-twitter"></i>
-                    </a>
-                    <a class="nav-link nav-link-brands" href="https://github.com/laplacef" target="_blank">
+                <!-- Icons outside the dropdown -->
+                <div class="navbar-nav">
+                    <a class="nav-link nav-link-brands d-none d-md-block" href="https://github.com/laplacef"
+                        target="_blank">
                         <i class="fa-brands fa-github"></i>
                     </a>
-                    <a class="nav-link nav-link-brands" href="https://www.linkedin.com/in/laplacef" target="_blank">
+                    <a class="nav-link nav-link-brands d-none d-md-block" href="https://www.linkedin.com/in/laplacef"
+                        target="_blank">
                         <i class="fa-brands fa-linkedin-in"></i>
                     </a>
-                    <a class="nav-link nav-link-brands" href="https://medium.com/@laplacef" target="_blank">
-                        <i class="fa-brands fa-medium"></i>
-                    </a>
-                    <a class="nav-link nav-link-brands" href="mailto:laplacef+consulting@proton.me" target="_blank">
-                        <i class="nav-envelope fa-solid fa-envelope"></i>
-                    </a>
                 </div>
             </div>
-        </div>
-    </nav>
-    <div id="particles-js"></div>
-    <div class="header-brand-block">
-        <div class="header-brand">
-            <img class="brand-img" src="res/images/profile.png" alt="brand-img">
-            <h1>Francisco Lopez</h1>
-            <h4>
-                <span class="header-title">Engineer</span> |
-                <span class="header-title">Analyst</span> |
-                <span class="header-title">Developer</span>
-            </h4>
-            <a class="arrow bounce fa fa-chevron-down fa-3x" href="#hello"></a>
-        </div>
+        </nav>
     </div>
-</div>
-<div class="middle-container" id="hello">
-    <div class="profile-block">
-        <h2>Hello.</h2>
-        <!-- <img class="profile-img" src="res/images/profile.png" alt="profile-img"> -->
-        <p class="intro">
-            Experienced analyst, developer, and project manager skilled in enterprise data solutions. Specialized in
-            data engineering, business analytics, cybersecurity, and process automation. I am creative, adaptable, and
-            innovative with exceptional aptitude for providing results. Productive and agile leader with effective
-            presentation, communication, team building, and collaboration skills.
-    </div>
-    <div class="view-more-block">
-        <h3 class="view-more underline">
-            <a href="bio.html">>> Learn More</a>
-        </h3>
-    </div>
-    <hr>
-    <div class="skills">
-        <h2>What I Do.</h2>
-        <div class="skills-row">
-            <img class="skills-icon" id="big-data-icon" src="res/icons/big-data.png" alt="big-data-icon">
-            <h3>Programming & Data</h3>
-            <p class="skills-info">
-                I design and build data apps to automate the extraction, cleansing, and visualization of information
-                sourced from multiple end systems. Comfortable in the application of data science strategies and
-                computer science concepts for business strategy optimization.
-            </p>
-        </div>
-        <div class="skills-row">
-            <img class="skills-icon" id="handshake-icon" src="res/icons/handshake.png" alt="handshake-icon">
-            <h3>Business Analysis & Strategy</h3>
-            <p class="skills-info">
-                Familiar with agile processes to optimize gathering, understanding, and transforming requirements into
-                insights for management and leadership teams. I facilitate timely data driven decisions by enhancing the
-                understanding of information and turning it into business action.
-            </p>
-        </div>
-        <div class="skills-row">
-            <img class="skills-icon" id="project-mgmt-icon" src="res/icons/project-mgmt.png" alt="project-mgmt-icon">
-            <h3>Project Management</h3>
-            <p class="skills-info">
-                Experience leading and collaborating with diverse cross-functional teams in multi-platform
-                projects. Implementation of scrum to deliver results in a timely and efficient
-                manner.
-            </p>
-        </div>
-        <div class="view-more-block">
-            <h3 class="view-more underline">
-                <a href="services.html">>> View Services</a>
-            </h3>
+    <div class="main-content">
+        <section id="particles-js"></section>
+        <div class="main-content flex-grow-1 d-flex align-items-center">
+            <section class="home-section w-100">
+                <h1>Francisco Laplace</h1>
+                <h4>
+                    <span class="home-section-title">Engineer</span> |
+                    <span class="home-section-title">Analyst</span> |
+                    <span class="home-section-title">Developer</span>
+                </h4>
+            </section>
         </div>
     </div>
-    <hr>
-    <div class="career">
-        <h2>Career.</h2>
-        <div class="company">
-            <div class="career-block">
-                <a class="career-link" href="https://wbd.com/" target="_blank">
-                    <img src="res/images/wbd-logo.png" id="wbd-logo" class="career-img" alt="wbd">
-                </a>
-            </div>
-            <div class="career-block">
-                <a class="career-link" href="https://www.cosentino.com/usa/cosentino-group/" target="_blank">
-                    <img src="res/images/cosentino-logo.png" class="career-img" alt="cosentino">
-                </a>
-            </div>
-            <div class="career-block">
-                <a class="career-link" href="https://americanprime.com/" target="_blank">
-                    <img id="ap-logo" src="res/images/american-prime-logo.png" class="career-img" alt="american-prime">
-                </a>
-            </div>
-        </div>
-        <div class="company">
-            <div class="career-block">
-                <a class="career-link" href="https://www.berkeley.edu/" target="_blank">
-                    <img src="res/images/berkeley-logo.png" class="career-img" alt="berkeley">
-                </a>
-            </div>
-            <div class="career-block">
-                <a class="career-link" href="https://welcome.miami.edu/" target="_blank">
-                    <img src="res/images/um-logo.png" class="career-img" alt="university-of-miami">
-                </a>
-            </div>
-            <div class="career-block">
-                <a class="career-link" href="https://www.fiu.edu/" target="_blank">
-                    <img src="res/images/fiu-logo.png" class="career-img" alt="fiu">
-                </a>
-            </div>
-        </div>
-        <div class="view-more-block">
-            <h3 class="view-more underline">
-                <a href="res/docs/resume.pdf" download="resume">>> Download Resume</a>
-            </h3>
-        </div>
-    </div>
-    <hr>
-    <div class="career">
-        <h2>Testimonials.</h2>
-        <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel"
-            data-bs-interval="4000" data-bs-pause="hover">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                    aria-label="Slide 4"></button>
-            </div>
-            <div class="carousel-inner">
-                <div id="carousel-slide" class="carousel-item active">
-                    <p class="d-block w-100 carousel-img" alt="testimonial-1">
-                        <em>
-                            "Francisco is a team player, humble, honest, reliable and very hard working. He has an
-                            exceptional attitude working with a very diverse team in multiple projects.
-                            He is always willing to get new challenges and continue growing and learning. His skills in
-                            data management have added great value to the department.
-                            It has been a pleasure to work with him."
-                        </em>
-                        <br>
-                        <br>
-                        <strong>Jessica Gasol.</strong> VP Strategy & Transformation, Cosentino
-                    </p>
-                </div>
-                <div id="carousel-slide" class="carousel-item">
-                    <p class="d-block w-100 carousel-img" alt="testimonial-2">
-                        <em>
-                            "Francisco is capable of tackling complex problems in a precise and skillful manner.
-                            He shows excellent proficiency in data analytics, expertise in the tools required to get the
-                            job done while communicating ideas
-                            and information in a clear, concise, and friendly manner."
-                        </em>
-                        <br>
-                        <br>
-                        <strong>Joel Cedano.</strong> Senior Product Manager, Addigy
-                    </p>
-                </div>
-                <div id="carousel-slide" class="carousel-item">
-                    <p class="d-block w-100 carousel-img" alt="testimonial-3">
-                        <em>
-                            "Frankie is an outstanding asset to any team. Always responsive and happy to help.
-                            His expansive knowledge of systems and data management is the best in the business."
-                        </em>
-                        <br>
-                        <br>
-                        <strong>Andy Hodgson.</strong> General Manager, Cosentino
-                    </p>
-                </div>
-                <div id="carousel-slide" class="carousel-item">
-                    <p class="d-block w-100 carousel-img" alt="testimonial-4">
-                        <em>
-                            "Frank was crucial in the development of our website and went beyond his skill set.
-                            When it came to IT and setting up our systems in the office it did not matter what time or
-                            day he would be there and never ever a glitch because of his commitment.
-                            I am proud to of worked with Frank."
-                        </em>
-                        <br>
-                        <br>
-                        <strong>Eduardo Cancela.</strong> VP New Business Development, American Prime
-                    </p>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
-    <hr>
-    <div class="contact-me">
-        <h2>Connect.</h2>
-        <h3 id="contact-msg">Have an interesting project?</h3>
-        <p id="contact-msg-desc">
-            If you'd like to talk about a project, idea, or would like to collaborate, get in contact with me.
-            <br>
-            I'm currently available for business and personal projects [especially in InfoSec 😏].
-        </p>
-        <a class="btn btn-danger btn-lg red-button" href="contact.html">Let's talk</a>
-    </div>
-</div>
-<div class="bottom-container">
-    <div class="footer-logo">
-        <a class="footer-link" href="https://www.laplacef.me/">
-            <img class="footer-icon" src="res/gif/brand.gif" alt="l-icon">
-        </a>
-    </div>
-    <div class="footer-menu">
-        <a class="footer-menu-links underline" href="https://www.laplacef.me/">Home</a>
-        <a class="footer-menu-links underline" href="bio.html">Bio</a>
-        <a class="footer-menu-links underline" href="services.html">Services</a>
-        <a class="footer-menu-links underline" href="contact.html">Contact</a>
-    </div>
-    <div class="footer-link-block">
-        <a class="footer-link" href="https://twitter.com/laplacef_">
-            <img class="copyright-icons" src="res/icons/twitter.png" alt="twitter-icon">
-        </a>
-        <a class="footer-link" href="https://github.com/laplacef">
-            <img class="copyright-icons" src="res/icons/github.png" alt="github-icon">
-        </a>
-        <a class="footer-link" href="https://www.linkedin.com/in/laplacef">
-            <img class="copyright-icons" src="res/icons/linkedin.png" alt="linkedin-icon">
-        </a>
-        <a class="footer-link" href="https://medium.com/@laplacef">
-            <img class="copyright-icons" src="res/icons/medium.png" alt="medium-icon">
-        </a>
-        <a class="footer-link" href="mailto:laplacef+consulting@proton.me">
-            <img class="copyright-icons" src="res/icons/email.png" alt="email-icon">
-        </a>
-    </div>
-    <p class="copyright">© 2023 Francisco Lopez. All Rights Reserved. | Powered by: Me</p>
-</div>
+    <footer class="copyright">2023 Francisco Laplace. All Rights Reserved. Powered by: Me 😎</footer>
 </body>
 
 </html>
